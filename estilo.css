@@ -1,0 +1,42 @@
+
+.contimgfon {
+    background: url(/Users/agustinalonso/Pictures/INFO/criptofondo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*.contimf {
+    background-image: url(/Users/agustinalonso/Pictures/INFO/criptofondo.png);
+    background-size: cover;
+    background-position: center;
+}*/
+
+.nav {
+    background-color: #46abca;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav__li:hover > a {
+color: black;
+}
+
+.nav__li i {
+    width: 30px;
+    text-align: right;
+    margin-right: 5px;
+    color: #f7b733;
+    box-sizing: border-box;
+}
+
+.nav__li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
