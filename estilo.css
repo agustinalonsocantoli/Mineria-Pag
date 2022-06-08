@@ -1,16 +1,20 @@
 
+
+/*.contimgfon {
+    background: linear-gradient( rgba(70, 171, 202, 0.3), rgba(70, 171, 202, 0.3) ), url(/Users/agustinalonso/Pictures/INFO/criptofondo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}*/
+
 .contimgfon {
-    background: url(/Users/agustinalonso/Pictures/INFO/criptofondo.png);
+    background: linear-gradient( rgba(247, 183, 51, 0.3), rgba(247, 183, 51, 0.3) ), url(/Users/agustinalonso/Pictures/INFO/criptofondo.png);
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-/*.contimf {
-    background-image: url(/Users/agustinalonso/Pictures/INFO/criptofondo.png);
-    background-size: cover;
-    background-position: center;
-}*/
+
 
 .nav {
     background-color: #46abca;
