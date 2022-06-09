@@ -1,18 +1,51 @@
 
 
+.contimgfon {
+    background: linear-gradient( rgba(70, 171, 202, 0.5), rgba(70, 171, 202, 0.5) ), url(/Users/agustinalonso/Pictures/INFO/fondo2.png);
+    background-size: cover ;
+    background-position: center;
+    position: relative;
+}
+
 /*.contimgfon {
-    background: linear-gradient( rgba(70, 171, 202, 0.3), rgba(70, 171, 202, 0.3) ), url(/Users/agustinalonso/Pictures/INFO/criptofondo.png);
-    background-size: cover;
+    background: linear-gradient( rgba(247, 183, 51, 0.7), rgba(247, 183, 51, 0.7) ), url(/Users/agustinalonso/Pictures/INFO/fondo2.png);
+    background-size: cover ;
     background-position: center;
     position: relative;
 }*/
 
-.contimgfon {
-    background: linear-gradient( rgba(247, 183, 51, 0.3), rgba(247, 183, 51, 0.3) ), url(/Users/agustinalonso/Pictures/INFO/criptofondo.png);
+.contimgfontra {
+    background: linear-gradient( rgba(70, 171, 202, 0.5), rgba(70, 171, 202, 0.5) ), url(/Users/agustinalonso/Pictures/INFO/fondo2.png);
     background-size: cover;
-    background-position: center;
     position: relative;
 }
+
+/*.contimgfontra {
+    background: linear-gradient( rgba(247, 183, 51, 0.7), rgba(247, 183, 51, 0.7) ), url(/Users/agustinalonso/Pictures/INFO/fondo2.png);
+    background-size: cover;
+    position: relative;
+}*/
+
+.contimgfontip {
+    background: linear-gradient( rgba(70, 171, 202, 0.5), rgba(70, 171, 202, 0.5) ), url(/Users/agustinalonso/Pictures/INFO/fondo2.png);
+    background-size: cover;
+    position: relative;
+}
+
+/*.contimgfontip {
+    background: linear-gradient( rgba(247, 183, 51, 0.7), rgba(247, 183, 51, 0.7) ), url(/Users/agustinalonso/Pictures/INFO/fondo2.png);
+    background-size: cover;
+    position: relative;
+}*/
+
+
+/*.contimgfon {
+    background-color: rgba(247, 183, 51, 0.3);
+}*/
+
+/*.contimgfontra {
+    background-color: rgba(247, 183, 51, 0.3);
+}*/
 
 .nav {
     background-color: #46abca;
@@ -46,7 +79,7 @@ color: black;
     text-align: center;
     font-size: 5em;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Monoton', cursive;
 }
 
@@ -60,14 +93,14 @@ color: black;
     color: white;
 }
 
-.finish__ h6, h5 {
+.finish__h {
     color: white;
 }
 
 .finish__ {
     background: black;
     opacity: .7;
-    margin-top: 10pxw;
+    margin-top: 20px;
 }
 
 .finish__ i {
@@ -82,3 +115,17 @@ color: black;
 .finish__ll:hover a {
     color: #46abca;
 }
+
+.finish {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+textarea {
+    height: 7em;
+    width: 28%;
+    overflow: scroll;
+    resize: none;   
+}
+
