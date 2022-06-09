@@ -14,8 +14,6 @@
     position: relative;
 }
 
-
-
 .nav {
     background-color: #46abca;
 }
@@ -44,3 +42,43 @@ color: black;
     font-family: 'Rubik', sans-serif;
 }
 
+.firts__ h1 {
+    text-align: center;
+    font-size: 5em;
+    color: black;
+    font-weight: 400;
+    font-family: 'Monoton', cursive;
+}
+
+.finish__ li {
+    display:  inline-block;
+    padding: 10px;
+    margin: 7px;
+}
+
+.finish__ p {
+    color: white;
+}
+
+.finish__ h6, h5 {
+    color: white;
+}
+
+.finish__ {
+    background: black;
+    opacity: .7;
+    margin-top: 10pxw;
+}
+
+.finish__ i {
+    color: #46abca;
+}
+
+.finish__ a {
+    text-decoration: none;
+    color: white;
+}
+
+.finish__ll:hover a {
+    color: #46abca;
+}
