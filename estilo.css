@@ -326,8 +326,3 @@ text-align: center;
     height: 600px;
     order: 0;
 }
-
-#finishgpu {
-    position: fixed;
-    bottom: 0;
-}
