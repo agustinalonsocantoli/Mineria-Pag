@@ -326,3 +326,11 @@ text-align: center;
     height: 600px;
     order: 0;
 }
+
+@media (max-width:1000px) {
+    #finishgpu {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+  }
