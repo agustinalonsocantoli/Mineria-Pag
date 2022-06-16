@@ -59,14 +59,14 @@
 }
 
 .nav__li:hover > a {
-color: #ffe054;
+color: #f7b733;
 }
 
 .nav__li i {
     width: 30px;
     text-align: right;
     margin-right: 5px;
-    color: #ffe054;
+    color: #f7b733;
     box-sizing: border-box;
 }
 
@@ -80,7 +80,7 @@ color: #ffe054;
 .firts__ h1 {
     text-align: center;
     font-size: 6em;
-    color: #ffe054;
+    color: #f7b733;
     font-weight: 600;
     font-family: 'Bungee Shade', cursive;
 }
@@ -145,7 +145,6 @@ textarea {
     text-align: center;
     padding: 15px;
     color: white;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
     margin-left: 70px;
     margin-right: 70px;
 }
@@ -154,6 +153,7 @@ textarea {
     border: 1px solid white;
     margin: 0.5px;
     padding-top: 7px;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
 }
 
 /*.formularioc {
@@ -191,7 +191,7 @@ textarea {
     margin-top: 10px;
     padding: 10px 60px 10px 60px;
     margin-left: 230px;
-    background-color: #ffe054;
+    background-color: #f7b733;
     color: white;
     border: 1px solid white;
 }
@@ -215,7 +215,7 @@ textarea {
     font-size: 25px;
     margin-left: 5px;
     padding-top: 5px;
-    color: #ffe054;
+    color: #f7b733;
     font-family: 'Bungee Hairline', cursive;
 }
 
@@ -240,14 +240,14 @@ textarea {
     margin-top: 60px;
     margin-bottom: 30px;
     text-align: center;
-    color: #ffe054;
+    color: #f7b733;
     font-family: 'Londrina Shadow', cursive;
 }
 
 .info__ {
     padding: 30px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 360px;
     font-family: 'Montserrat', sans-serif;
     color: white;
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) );
@@ -255,55 +255,62 @@ textarea {
 }
 
 .info__ p {
-    margin: 10px 0px 30px 0px;
-    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     color: #46abca;
     font-size: 30px;
 }
 
+#info__til {
+    font-weight: 900;
+    font-size: 40px
+}
+
 .firts__h {
-padding: 20px 0px 25px 20px;
+padding: 20px 0px 25px 50px;
 font-size: 30px; 
 font-family: 'Roboto Mono', monospace;
 color: white;
-background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );
+background: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3) );
+margin: 0px 20px 0px 20px;
 }
 
 .firts__par {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     color: white;
-    padding: 15px 10px 10px 20px;
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );
-    margin-right: 150px;
+    padding: 15px 150px 10px 50px;
+    background: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3) );
+    margin: 0px 20px 0px 20px;
 }
 
 .gal__title {
 font-size: 30px; 
 font-family: 'Londrina Shadow', cursive;
 color: white;
-background: linear-gradient( rgba(0, 0, 0, .0), rgba(0, 0, 0, .0) );
+background: linear-gradient( rgba(255, 228, 109, 0), rgba(0, 0, 0, .4) );
 padding: 15px;
 margin-right: 35em;
 margin-left: 50px;
+margin-top: -110px;
+border: 3px double #f7b733;
+position: absolute;
 text-align: center;
-margin-top: -20px;
-border: 3px double #ffe054;
 }
 
 .gal__contain {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 10px;
-    margin: 15px 50px 20px 50px;
+    margin: 150px 50px 20px 50px;
 }
 
 .gal__contain img {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    border: 3px double #ffe054;
+    border: 3px double #f7b733;
 }
 
 .gal__contain img:first-child {
