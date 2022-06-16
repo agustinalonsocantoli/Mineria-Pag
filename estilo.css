@@ -1,7 +1,7 @@
 
 
 .contimgfon {
-    background: linear-gradient( rgba(70, 171, 202, 0.4), rgba(70, 171, 202, 0.4) ), url(/Users/agustinalonso/Desarrollador/Mineria-Pag/INFO/fondo2.png);
+    background: linear-gradient( rgba(70, 171, 202, 0.4), rgba(70, 171, 202, 0.4) ), url(INFO/fondo2.png);
     background-size: cover ;
     background-position: center;
     position: relative;
@@ -15,7 +15,7 @@
 }*/
 
 .contimgfontra {
-    background: linear-gradient( rgba(70, 171, 202, 0.5), rgba(70, 171, 202, 0.5) ), url(/Users/agustinalonso/Desarrollador/Mineria-Pag/INFO/fondo2.png);
+    background: linear-gradient( rgba(70, 171, 202, 0.5), rgba(70, 171, 202, 0.5) ), url(INFO/fondo2.png);
     background-size: cover;
     position: relative;
 }
@@ -27,7 +27,7 @@
 }*/
 
 .contimgfontip {
-    background: linear-gradient( rgba(70, 171, 202, 0.5), rgba(70, 171, 202, 0.5) ), url(/Users/agustinalonso/Desarrollador/Mineria-Pag/INFO/fondo2.png);
+    background: linear-gradient( rgba(70, 171, 202, 0.5), rgba(70, 171, 202, 0.5) ), url(INFO/fondo2.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -172,7 +172,7 @@ textarea {
 }
 
 .form__contain {
-    background: url(/Users/agustinalonso/Desarrollador/Mineria-Pag/INFO/contacto.png);
+    background: url(INFO/contacto.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
